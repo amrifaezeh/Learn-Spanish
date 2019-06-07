@@ -1,0 +1,33 @@
+body{
+    padding: 40px;
+    background-color: #426aa7;
+    font-family: courier;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.card{
+    flex: none;
+    margin-top:10px;
+    padding: 20px; 
+    border-radius: 10px;
+    background: #b2c8e9;
+}
+.card-title, .card-answer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.card-button{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #0070bb;
+    background: #dbe7fa;
+    color: #0070bb;
+}
+.card-answer{
+    display: none;
+}
